@@ -112,7 +112,7 @@ function camp_features_field_default_field_instances() {
     'bundle' => 'camp_features',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => 'adding some help text',
+    'description' => 'changes some help text',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -150,7 +150,7 @@ function camp_features_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
-  t('adding some help text');
+  t('changes some help text');
   t('date');
   t('text field');
 
