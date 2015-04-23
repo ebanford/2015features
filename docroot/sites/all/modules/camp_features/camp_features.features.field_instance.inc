@@ -54,6 +54,46 @@ function camp_features_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-camp_features-field_another_field'
+  $field_instances['node-camp_features-field_another_field'] = array(
+    'bundle' => 'camp_features',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_another_field',
+    'label' => 'another field',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 5,
+      ),
+      'type' => 'text_textarea',
+      'weight' => -1,
+    ),
+  );
+
   // Exported field_instance: 'node-camp_features-field_date'
   $field_instances['node-camp_features-field_date'] = array(
     'bundle' => 'camp_features',
@@ -150,6 +190,7 @@ function camp_features_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
+  t('another field');
   t('changes some help text');
   t('date');
   t('text field');
