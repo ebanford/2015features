@@ -14,5 +14,5 @@ function camp_features_form_alter(&$form, &$form_state, $form_id) {
 }
 
 function my_callback_function($form,$form_state) {
-  drupal_set_message('<p>Just text here!</p>');
+   dpm($form);
 }

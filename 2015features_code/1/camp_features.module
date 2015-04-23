@@ -1,0 +1,12 @@
+<?php
+/**
+ * @file
+ * Code for the camp features feature.
+ */
+
+include_once 'camp_features.features.inc';
+
+function camp_features_form_alter(&$form, &$form_state, $form_id) {
+dpm($form);
+
+}

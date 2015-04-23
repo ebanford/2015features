@@ -8,11 +8,7 @@ include_once 'camp_features.features.inc';
 
 function camp_features_form_alter(&$form, &$form_state, $form_id) {
  if (isset($form ['type']) && $form ['type']['#value'] == "camp_features") {
-   $form['actions']['submit']['#submit'][]='my_callback_function';
    dpm($form);
  }
 }
 
-function my_callback_function($form,$form_state) {
-  drupal_set_message('<p>Just text here!</p>');
-}
